@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: Rubik;
+}
+/*BARRA NAVEGACIÓN*/
+.navbar{
+    padding: 2rem;
+    background-color: white;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    margin-top: -2%;
+}
+.ulNav li a{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.ulNav .aBordeBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #044C7E;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.ulNav .aBordeBoton button{
+    background-color: transparent;
+    border: 0px;
+    color: #044C7E;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.aBordeBoton:hover{
+    background-color: #044C7E;
+    box-shadow: 0px 10px 150px #044C7E;
+}
+.aBordeBoton:hover button{
+    color: white;
+}
+/*fin navegación*/
