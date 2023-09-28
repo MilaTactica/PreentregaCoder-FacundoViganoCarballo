@@ -127,6 +127,28 @@ nav{
     margin-left: 10px;
     margin-top: -12px;
 }
+.columna-saldo{
+    border-radius: 10px;
+    background-color: white;
+    filter: drop-shadow(0px 50px 115px rgba(4, 76, 126, 0.37));
+    padding: 20px;
+    width: 600px;
+}
+.form-group{
+    margin: 10px;
+}
+.form-group input{
+    border-radius: 10px;
+    border: 1px solid #7B808B;
+}
+.form-group select{
+    border-radius: 10px;
+    border: 1px solid #7B808B;
+}
+.boton-saldo{
+    width: 200px;
+    height: 60px;
+}
 /*ESTILOS TARJETAS*/
 .botonTarjetas{
     background-color: #044C7E;
